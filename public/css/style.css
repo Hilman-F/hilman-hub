@@ -262,11 +262,14 @@
   .bg-\[\#101828\] {
     background-color: #101828;
   }
-  .bg-\[url\(\'\.\.\/\.\.\/assets\/pattern-body\.png\'\)\] {
-    background-image: url('../../assets/pattern-body.png');
+  .bg-\[url\(\'ass\'\)\] {
+    background-image: url('ass');
   }
-  .bg-\[url\(\'\.\.\/\.\.\/assets\/pattern\.png\'\)\] {
-    background-image: url('../../assets/pattern.png');
+  .bg-\[url\(\'assets\/pattern-body\.png\'\)\] {
+    background-image: url('assets/pattern-body.png');
+  }
+  .bg-\[url\(\'assets\/pattern\.png\'\)\] {
+    background-image: url('assets/pattern.png');
   }
   .bg-cover {
     background-size: cover;
