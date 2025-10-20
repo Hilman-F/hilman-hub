@@ -101,21 +101,34 @@
 
 
     .animation-flip {
-        animation: flip 1s ease-in-out 1 !important;
+        animation: flip 2s ease-in-out 1 !important;
     }
 
     .animation-flipInY {
-        animation: flipInY 1s ease-in-out 1 !important;
+        animation: flipInY 2s ease-in-out 1 !important;
     }
 
     .animation-fadeIn {
-        animation: fadeIn 1s ease-in-out 1 !important;
+        animation: fadeIn 2s ease-in-out 1 !important;
     }
 
     .animation-zoomInDown {
-        animation: zoomInDown 1s ease-in-out 1 !important;
+        animation: zoomInDown 2s ease-in-out 1 !important;
     }
 
     .animation-backInLeft {
-        animation: backInLeft 1s ease-in-out 1 !important;
+        animation: backInLeft 2s ease-in-out 1 !important;
+    }
+
+    /* /////////////////////////////////////////////////////// */
+    .animation-delay-200ms {
+        animation-delay: 200ms !important;
+    }
+
+    .animation-delay-400ms {
+        animation-delay: 400ms !important;
+    }
+
+    .animation-delay-600ms {
+        animation-delay: 600ms !important;
     }

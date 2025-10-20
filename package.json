@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.1.14",
-    "animate.css": "^4.1.1",
     "tailwindcss": "^4.1.14"
   },
   "scripts": {
-    "build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./public/css/style.css --wminify"
+    "build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./public/css/style.css --watch"
   },
   "devDependencies": {
     "prettier": "3.6.2"
